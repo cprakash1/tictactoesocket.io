@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://127.0.0.1:8000/socket.io/socket.io.js"></script>
+    <script src="./clint.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon" />
+    <title>TicTacToe_game</title>
+  </head>
+  <body>
+    <h1>TIC TAC TOE</h1>
+    <h3 class="btn btn-success" id="p1">Player 1 Chance</h3>
+    <h3 class="btn btn-secondary" id="p2">Player 2 Chance</h3>
+    <!-- game screen -->
+    <table class="grid">
+      <tr>
+        <td>
+          <button type="button" class="cell fs-1" id="a1"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a2"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a3"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" class="cell fs-1" id="a4"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a5"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a6"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" class="cell fs-1" id="a7"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a8"></button>
+        </td>
+        <td>
+          <button type="button" class="cell fs-1" id="a9"></button>
+        </td>
+      </tr>
+    </table>
+    <button type="button" class="btn btn-outline-primary btn-lg" id="reset">
+      Restart
+    </button>
+    <button type="button" class="btn btn-outline-primary btn-lg" id="submit">
+      Submit
+    </button>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>

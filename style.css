@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #97deff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-size: 562.5%;
+  font-family: "Sacramento", cursive;
+  color: #aa77ff;
+  margin-top: 0;
+}
+.grid {
+  max-width: 420px;
+  max-height: 420px;
+  width: 85vw; /* 85% of the viewport (body) width */
+  height: 85vw;
+  border-spacing: 4px 2px; /* Space between cells */
+  margin: 2% auto 0 auto;
+}
+
+td {
+  padding: 0;
+  width: 33%; /* Every cell should be 1/3 of table height (and width) */
+  height: 33%;
+}
+.cell {
+  font-size: 3.4em;
+  font-size: 16vmin; /* Responsive font size! Awesome! */
+  height: 100%; /* Fill the container (td) */
+  width: 100%;
+  border-radius: 8px;
+  background-color: #c9eeff;
+}
+/* restart_button */
+.restart {
+  margin: 5% auto;
+}
